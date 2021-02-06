@@ -11,7 +11,10 @@
     Some string methods that might help you here are .replace() and .substring(). 
 */
 
-function safeLevels() {}
+function safeLevels(arr) {
+  let oxygenLevel = arr.map(element => element.replace("%", ""));
+  return oxygenLevel.find((element) => element > 19.5 && element < 23.5) + "%";
+ }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

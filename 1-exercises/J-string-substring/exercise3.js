@@ -7,8 +7,9 @@
 */
 
 let statement = "I do not like programming";
-
-let result = "";
+var statement1 = statement.substring(0, 5);
+var statement2 = statement.substring(9, statement.length);
+let result = statement1.concat(statement2);
 
 console.log(result);
 

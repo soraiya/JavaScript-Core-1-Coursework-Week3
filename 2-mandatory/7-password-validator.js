@@ -22,9 +22,7 @@ PasswordValidationResult=  [false, false, false, false, true]
 
 */
 
-function validatePasswords(passwords) {
-
-}
+function validatePasswords(passwords) {}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
